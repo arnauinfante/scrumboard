@@ -20,6 +20,7 @@ export class AppComponent {
         event.previousIndex,
         event.currentIndex);
     }else{
+
       transferArrayItem(event.previousContainer.data,
         event.container.data,
         event.previousIndex, event.currentIndex);
